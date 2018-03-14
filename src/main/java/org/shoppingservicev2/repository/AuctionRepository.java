@@ -1,0 +1,8 @@
+package org.shoppingservicev2.repository;
+
+
+import org.shoppingservicev2.domain.Auction;
+import org.springframework.data.repository.CrudRepository;
+
+public interface AuctionRepository extends CrudRepository<Auction, Integer> {
+}
